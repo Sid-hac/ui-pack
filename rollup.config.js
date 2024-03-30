@@ -8,7 +8,7 @@ export default defineConfig({
     output : {
         dir : "dist",
         format : "es",
-        name : "ui-pack",
+        name : "@sid_hac/ui-pack",
     },
     external : ["react", "react-dom"],
     plugins : [typescript({tsconfig : "tsconfig.json"})]
